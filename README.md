@@ -52,10 +52,14 @@ interface cable-downstream 14/8
 > Login to your grafana server: http://yourserver.ip:3000/ (admin/admin by default)
 
 ***Add Data Source***
-> Let's create data source called InfluxDB
+> Let's create data source called "telegraf".
+
 [![Add Data Source](https://i.imgur.com/C6DVIlB.jpg)]()
+> Choose green button: Add data source 
+
 ***Save Data Source***
-> Probably influxdb is running on the same server. Database is called "telegraf" and also datasource should be called "telegraf".
+> Probably influxdb is running on the same server. Database is called "telegraf" and also data source should be called "telegraf".
+
 [![Add Data Source](https://i.imgur.com/jqY7Ohn.jpg)]()
 
 
