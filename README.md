@@ -60,6 +60,6 @@ interface cable-downstream 14/8
 ***Save Data Source***
 > Probably influxdb is running on the same server. Database is called "telegraf" and also data source should be called "telegraf".
 
-[![Add Data Source](https://i.imgur.com/jqY7Ohn.jpg)]()
+[![Add Data Source](https://i.imgur.com/ASQtZRQ.jpg)]()
 
 
