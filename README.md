@@ -44,4 +44,11 @@ interface cable-downstream 14/8
 - CMTS_Casa.conf should work with Casa-Systems CMTSes. Also enviroment measurement is done.
 
 > Edit desired config, change IP and community. Copy config to telegraf config directory and reload telegraf service.
-
+```
+#cp CMTS_generic.conf /etc/telegraf/telegraf.d/CMTS_Testlab_01.conf 
+#service telegraf reload
+```
+**Grafana**
+> Login to your grafana server: http://yourserver.ip:3000/ (admin/admin by default)
+***Add Data Source***
+[![Add Data Source](https://i.imgur.com/C6DVIlB.jpg)]()
