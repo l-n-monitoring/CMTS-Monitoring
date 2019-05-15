@@ -37,4 +37,11 @@ interface cable-upstream 11/3.1
 interface cable-downstream 14/8 
  description "|Street 1|Street 2|"
 ```
+**Telegraf**
+> Location of telegraf config files is "/etc/telegraf/telegraf.d/".
+- CMTS_generic.conf should work with every single cmts. However it doesn't show CM counters as this is vendor specific.
+- CMTS_Cisco.conf should work with Cisco CMTSes. It will show CM counters. Sadly it doesn't show Docsis 3.0 modems.
+- CMTS_Casa.conf should work with Casa-Systems CMTSes. Also enviroment measurement is done.
+
+> Edit desired config, change IP and community. Copy config to telegraf config directory and reload telegraf service.
 
