@@ -2,7 +2,7 @@
 > Monitoring of Cable characteristics on CMTS was always a hard job. You had to either implement your CMTS to Cacti/Zabbix or create your own polling application. I would like to share with you how I made it easy with opensource tools freely available on the internet.
 
 ***Dashboard***
-[![Add Data Source](https://i.imgur.com/HVvSjZs.png)]()
+[![Add Data Source](images/screencapture-193-95-254-210-2323-d-yBX3mKdiz-cmts-cable-2019-05-14-14_49_14 (1).png)]()
 
 **Prerequirements**
 - <a href="https://docs.influxdata.com/influxdb/v1.7/introduction/installation/">InfluxDB</a>
