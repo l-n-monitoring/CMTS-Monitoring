@@ -1,6 +1,9 @@
 # CMTS - Cable Monitoring
 > Monitoring of Cable characteristics on CMTS was always a hard job. You had to either implement your CMTS to Cacti/Zabbix or create your own polling application. I would like to share with you how I made it easy with opensource tools freely available on the internet.
 
+***Dashboard***
+[![Add Data Source](https://i.imgur.com/HVvSjZs.png)]()
+
 **Prerequirements**
 - <a href="https://docs.influxdata.com/influxdb/v1.7/introduction/installation/">InfluxDB</a>
 - <a href="https://docs.influxdata.com/telegraf/v1.10/introduction/installation/">Telegraf</a>
@@ -62,4 +65,12 @@ interface cable-downstream 14/8
 
 [![Add Data Source](https://i.imgur.com/ASQtZRQ.jpg)]()
 
+***Import Dashboard***
+- Slide over dashboard button and click on "Manage".
+- On the right side click "Import".
+[![Add Data Source](https://i.imgur.com/aO98YiT.jpg)]()
 
+- Click on green button "Upload .json File"
+- Choose "CMTS - Cable.json" and click "Import". 
+
+# You're Finished!
