@@ -57,18 +57,18 @@ interface cable-downstream 14/8
 ***Add Data Source***
 > Let's create data source called "telegraf".
 
-[![Add Data Source](https://i.imgur.com/C6DVIlB.jpg)]()
+[![Add Data Source](https://github.com/l-n-monitoring/CMTS-Monitoring/raw/master/images/create_datasource.jpg)]()
 > Choose green button: Add data source 
 
 ***Save Data Source***
 > Probably influxdb is running on the same server. Database is called "telegraf" and also data source should be called "telegraf".
 
-[![Add Data Source](https://i.imgur.com/ASQtZRQ.jpg)]()
+[![Add Data Source](https://github.com/l-n-monitoring/CMTS-Monitoring/raw/master/images/save_datasource.jpg)]()
 
 ***Import Dashboard***
 - Slide over dashboard button and click on "Manage".
 - On the right side click "Import".
-[![Add Data Source](https://i.imgur.com/aO98YiT.jpg)]()
+[![Add Data Source](https://github.com/l-n-monitoring/CMTS-Monitoring/raw/master/images/manage_dashboard.jpg)]()
 
 - Click on green button "Upload .json File"
 - Choose "CMTS - Cable.json" and click "Import". 
