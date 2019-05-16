@@ -1,6 +1,12 @@
 # CMTS - Cable Monitoring
 > Monitoring of Cable characteristics on CMTS was always a hard job. You had to either implement your CMTS to Cacti/Zabbix or create your own polling application. I would like to share with you how I made it easy with opensource tools freely available on the internet.
 
+**Benefits to rrd**
+- This is influxDB aka Big Data
+- If you keep your fiber node descriptions intact you have the whole history even after segmentation
+- Fancy dashboards with tables, gauges and piecharts
+- View of the whole CMTS statistics on one page
+
 ***Dashboard***
 [![Add Data Source](https://github.com/l-n-monitoring/CMTS-Monitoring/raw/master/images/screencapture-193-95-254-210-2323-d-yBX3mKdiz-cmts-cable-2019-05-14-14_49_14%20(1).png)]()
 
