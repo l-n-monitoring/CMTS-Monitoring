@@ -8,7 +8,7 @@
 - View of the whole CMTS statistics on one page
 
 ***Dashboard***
-![Add Data Source](https://github.com/l-n-monitoring/CMTS-Monitoring/raw/master/images/screencapture-193-95-254-210-2323-d-yBX3mKdiz-cmts-cable-2019-05-14-14_49_14%20(1).png)()
+![Add Data Source](https://github.com/l-n-monitoring/CMTS-Monitoring/raw/master/images/screencapture-193-95-254-210-2323-d-yBX3mKdiz-cmts-cable-2019-05-14-14_49_14%20(1).png)
 
 **Prerequirements**
 - <a href="https://docs.influxdata.com/influxdb/v1.7/introduction/installation/">InfluxDB</a>
